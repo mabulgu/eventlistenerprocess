@@ -9,6 +9,11 @@
     <event-listeners>
         <event-listener>
             <resolver>reflection</resolver>
+            <identifier>com.redhat.pam.templates.listeners.CustomTaskLifeCycleEventListener</identifier>
+            <parameters/>
+        </event-listener>
+        <event-listener>
+            <resolver>reflection</resolver>
             <identifier>com.redhat.pam.templates.listeners.CustomProcessEventListener</identifier>
             <parameters/>
         </event-listener>
