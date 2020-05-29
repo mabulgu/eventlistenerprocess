@@ -45,6 +45,12 @@
       <version>1.4.10</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.samples</groupId>
+      <artifactId>CustomEventlisteners</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
