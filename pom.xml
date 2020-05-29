@@ -47,7 +47,7 @@
     </dependency>
     <dependency>
       <groupId>com.redhat.pam.templates</groupId>
-      <artifactId>CustomEventlisteners</artifactId>
+      <artifactId>custom-event-listeners</artifactId>
       <version>1.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
