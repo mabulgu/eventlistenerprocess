@@ -1,6 +1,8 @@
+package com.redhat.pam.templates.rule;
+
 rule "businessrule"
 ruleflow-group "businessrulegroup"
 when 
 then
-	System.out.println("Hello from businessrule!");
+	System.out.println("Hello from Business Rule Task!");
 end
