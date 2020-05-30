@@ -1,0 +1,6 @@
+rule "businessrule"
+ruleflow-group "businessrulegroup"
+when 
+then
+	System.out.println("Hello from businessrule!");
+end
