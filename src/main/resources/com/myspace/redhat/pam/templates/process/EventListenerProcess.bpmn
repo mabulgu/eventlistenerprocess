@@ -12,7 +12,7 @@
   <bpmn2:itemDefinition id="__14B3BAFB-F7A3-4E71-A2D6-E226E3C29D00_NotCompletedReassignInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__14B3BAFB-F7A3-4E71-A2D6-E226E3C29D00_NotStartedNotifyInputXItem" structureRef="Object"/>
   <bpmn2:itemDefinition id="__14B3BAFB-F7A3-4E71-A2D6-E226E3C29D00_NotCompletedNotifyInputXItem" structureRef="Object"/>
-  <bpmn2:process id="EventListenerProcess.EventListenerProcess" drools:packageName="com.myspace.eventlistenerprocess" drools:version="1.0" drools:adHoc="false" name="EventListenerProcess" isExecutable="true">
+  <bpmn2:process id="EventListenerProcess.EventListenerProcess" drools:packageName="com.redhat.pam.templates.process" drools:version="1.0" drools:adHoc="false" name="EventListenerProcess" isExecutable="true">
     <bpmn2:sequenceFlow id="_5DB6352E-A116-4B28-9D1F-599E8612F80C" sourceRef="_704446CA-834E-478E-952C-0D453908C065" targetRef="_298CDCD1-D655-4883-ADE7-3E43CD2D1054"/>
     <bpmn2:sequenceFlow id="_B5AC85F8-90F5-468F-AC21-3F85D2105744" sourceRef="_14B3BAFB-F7A3-4E71-A2D6-E226E3C29D00" targetRef="_9B2A2908-B02B-4921-BA18-A151C3A1FB2E"/>
     <bpmn2:sequenceFlow id="_85F5B3DA-7DEF-43D0-A53C-47E3D10F4BB3" sourceRef="_298CDCD1-D655-4883-ADE7-3E43CD2D1054" targetRef="_14B3BAFB-F7A3-4E71-A2D6-E226E3C29D00">
