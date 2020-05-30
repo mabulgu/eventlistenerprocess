@@ -1,4 +1,4 @@
-package com.redhat.pam.templates.rule
+package com.redhat.pam.templates.rule;
 
 rule "businessrule"
 ruleflow-group "businessrulegroup"
