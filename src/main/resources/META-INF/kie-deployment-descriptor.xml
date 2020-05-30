@@ -8,7 +8,7 @@
     <marshalling-strategies/>
     <event-listeners>
         <event-listener>
-            <resolver>mvel</resolver>
+            <resolver>reflection</resolver>
             <identifier>com.redhat.pam.templates.listeners.CustomAgendaEventListener</identifier>
             <parameters/>
         </event-listener>
