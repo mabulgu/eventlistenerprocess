@@ -4,5 +4,5 @@ rule "businessrule"
 ruleflow-group "businessrulegroup"
 when 
 then
-	System.out.println("Hello from Business Rule Task");
+	System.out.println("Hello from Business Rule Task!");
 end
