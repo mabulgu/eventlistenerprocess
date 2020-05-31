@@ -1,11 +1,9 @@
 package com.redhat.pam.templates.rules;
 
-import com.redhat.pam.templates.model.Message;
-
 rule "businessrule"
 ruleflow-group "businessrulegroup"
    when
-        Message( code == 20, text == "agenda example rule" )
+        com.redhat.pam.templates.model.Message( code == 20, text == "agenda example rule" )
     then
          System.out.println( "Rule message matched!");
 end
