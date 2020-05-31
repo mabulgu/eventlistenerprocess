@@ -1,5 +1,7 @@
 package com.redhat.pam.templates.rules;
 
+import com.redhat.pam.templates.model.Message;
+
 rule "businessrule"
 ruleflow-group "businessrulegroup"
    when
