@@ -6,31 +6,27 @@ package com.redhat.pam.templates.model;
 
 public class Message implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
-    
-    private int code;
-    private String text;
-     
-    public Message(int code, String text) {
-        super();
-        this.code = code;
-        this.text = text;
-    }
-     
-    public int getCode() {
-        return code;
-    }
-     
-    public void setCode(int code) {
-        this.code = code;
-    }
-     
-    public String getText() {
-        return text;
-    }
-     
-    public void setText(String text) {
-        this.text = text;
-    }
+	static final long serialVersionUID = 1L;
+
+	private String text;
+	
+	public Message() {
+	}
+
+	public Message(String text) {
+		super();
+		this.text = text;
+	}
+
+	public String getText() {
+		return text;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+
+
 
 }
