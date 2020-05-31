@@ -6,7 +6,7 @@ ruleflow-group "businessrulegroup"
         $obj : com.redhat.pam.templates.model.Message( code == 20, text == "agenda example rule" )
     then
          System.out.println( "Rule message matched!");
-         $obj.code = 30;
+         $obj.setCode(30);
          update($obj);
 end
     
