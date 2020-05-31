@@ -2,7 +2,8 @@ package com.redhat.pam.templates.rules;
 
 rule "businessrule"
 ruleflow-group "businessrulegroup"
-when 
-then
-	System.out.println("Hello from Business Rule Task");
+   when
+        Message( code == 20, text == "agenda example rule" )
+    then
+         System.out.println( "Rule message matched!");
 end
