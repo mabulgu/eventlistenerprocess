@@ -3,10 +3,10 @@ package com.redhat.pam.templates.rules;
 rule "businessrule"
 ruleflow-group "businessrulegroup"
    when
-        $obj : com.redhat.pam.templates.model.Message( code == 20, text == "agenda example rule" )
+        $obj : com.redhat.pam.templates.model.Message( text == "agenda example rule" )
     then
          System.out.println( "Rule message matched!");
-         $obj.setCode(30);
+         $obj.setText("agenda example rule update");
          update($obj);
 end
     
